@@ -7,6 +7,7 @@ Docker是无状态的不管被销毁多少次都会恢复到最初的状态,但�
 
 
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
+
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
 
 > PS:本系列中使用 KubernetesV1.8 RancherV1.6.14  
