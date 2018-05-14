@@ -29,6 +29,9 @@ Rancher Server当前版本中有2个不同的标签。对于每一个主要的re
 > PS:请不要使用任何带有 rc{n} 前缀的release。这些构建都是Rancher团队的测试构建。  
 
 这里使用Cenos7.4,并且安装好Docker-17.03.2-ce版本,在拉取稳定的Rancher-v1.6.14版本
+
+> PS:Kubernets支持的Docker版本 1.11.2 to 1.13.1 and 17.03.2
+
 ```bash
 docker pull rancher/server:v1.6.14
 ```
