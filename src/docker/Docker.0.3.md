@@ -1,6 +1,4 @@
 # Docker应用容器引擎介绍与搭建
-#w-blog博客/kube
-
 
 ![](../images/7.png)
 
@@ -127,9 +125,6 @@ docker通过运行hello-world 映像验证安装是否正确。
 Hello from Docker!
 ```
 
-## 3 总结
 第一步已经完成已经可以使用Docker环境了,下一步我们需要熟悉Docker相关的一些命令
-
-注:笔者能力有限有说的不对的地方希望大家能够指出,也希望多多交流!
 
 
