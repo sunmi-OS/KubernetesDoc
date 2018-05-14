@@ -1,7 +1,7 @@
 # Kubernetes(一) - Docker管理工具
 
 
-![]((../images/9.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/1.png)
 
 虽然Docker已经很强大了,但是在实际使用上还是有诸多不便,比如集群管理,资源调度文件管理等等,那么在这样一个百花齐放的容器时代涌现出了很多解决方案,比如Swarm,Mesos,Kubernetes等等,其中谷歌开源的Kubernetes是作为老大哥的存在,从本节开始将介绍如何打造自己的Kubernetes,并且了解它各个组件的用途
 
