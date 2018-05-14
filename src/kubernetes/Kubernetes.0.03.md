@@ -1,5 +1,4 @@
 # Kubernetes(三) - 使用Rancher部署K8S集群(搭建Kubernetes)
-#w-blog博客/kube
 
 ![](Kubernetes(%E4%B8%89)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BAKubernetes)/12.png)
 
@@ -11,9 +10,10 @@
 
 附上:
 
-喵了个咪的博客:[w-blog.cn](w-blog.cn)
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
+
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
+
 Rancher官方地址: [https://www.cnrancher.com/](https://www.cnrancher.com/)  
 
 > PS:本系列中使用 KubernetesV1.8 RancherV1.6.14  
