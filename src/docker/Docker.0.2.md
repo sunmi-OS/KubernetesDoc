@@ -1,7 +1,7 @@
 # Docker使用命令和技巧
 #w-blog博客/kube
 
-![](Docker%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E6%8A%80%E5%B7%A7/4B5A9E4D-6F84-4551-AE70-FFD25DC8C454.png)
+![](../images/4.png)
 
 Docker相信大家都不默认,没有实践过的童鞋也应该听过他的大名,笔者最近挺长一段使用都在使用Docker解决各种问题,而在最近也吧Kubernetes的坑爬完实践了起来,那么从今天开始笔者会带来关于Docker容器化相关的博文,一同探索Docker为什么这么火热,我们怎么去实践使用它.
 
@@ -84,11 +84,11 @@ Docker相信大家都不默认,没有实践过的童鞋也应该听过他的大�
 
 既然使用了docker,就会大量的使用别人提起处理好的环境常常我们去https://hub.docker.com/ 中寻找我们需要的镜像
 
-![](Docker%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E6%8A%80%E5%B7%A7/30BB33D3-4068-46BE-9042-7084D85941BD.png)
+![](../images/6.png)
 
 搜索你需要的镜像
 
-![](Docker%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E6%8A%80%E5%B7%A7/6FBA7567-C46E-45EF-B1C5-081786C8A931.png)
+![](../images/5.png)
 
 默认docker在拉取镜像的时候就会从hub.docker中拉取,使用如下命令就可以拉取上面第一个镜像
 

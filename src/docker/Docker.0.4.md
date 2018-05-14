@@ -2,7 +2,7 @@
 #w-blog博客/kube
 
 
-![](Docker%E7%BC%96%E6%8E%92%E5%B7%A5%E5%85%B7Docker-compose/4B5A9E4D-6F84-4551-AE70-FFD25DC8C454.png)
+![](../images/8.png)
 
 当然我们已经了解了Docker基础使用,当然我们要全面Docker化还有一段路要走,今天给大家带来的是编排工具,应为复杂度使用docker run 容器的时候需要配置很多内容比如端口映射,磁盘挂载,环境变量等,全部在命令中格式麻烦也不好保存,并且如果多个容器之前需要关联也特别麻烦,所以有了Docker三剑客之一的Docker-compose出面来解决这个问题.
 

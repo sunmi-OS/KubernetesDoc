@@ -1,13 +1,8 @@
 # Kubernetes(五) - Service
-#w-blog博客/kube
 
-![](Kubernetes(%E4%BA%94)%20-%20Service/1B88873A-A973-4B22-A7BB-945B4E30394E.png)
 
 Kubernetes解决的另外一个痛点就是服务发现,服务发现机制和容器开放访问都是通过Service来实现的,把Deployment和Service关联起来只需要Label标签相同就可以关联起来形成负载均衡,基于kuberneres的DNS服务我们只需要访问Service的名字就能以负载的方式访问到各个容器
 
-附上:
-
-喵了个咪的博客:[w-blog.cn](w-blog.cn)
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
 
@@ -53,7 +48,7 @@ spec:
 > kubectl create -f nginx-deployment.yaml
 ```
 
-![](Kubernetes(%E4%BA%94)%20-%20Service/75B33FD9-241F-4DAF-A290-EE86867D05DC.png)
+![](Kubernetes(%E4%BA%94)%20-%20Service/50.png)
 
 我们分别修改一下对应的输出
 ```

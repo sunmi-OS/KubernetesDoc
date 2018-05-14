@@ -2,7 +2,7 @@
 #w-blog博客/kube
 
 
-![](Docker%E5%BA%94%E7%94%A8%E5%AE%B9%E5%99%A8%E5%BC%95%E6%93%8E%E4%BB%8B%E7%BB%8D%E4%B8%8E%E6%90%AD%E5%BB%BA/4B5A9E4D-6F84-4551-AE70-FFD25DC8C454.png)
+![](../images/7.png)
 
 Docker相信大家都不默认,没有实践过的童鞋也应该听过他的大名,笔者最近挺长一段使用都在使用Docker解决各种问题,而在最近也吧Kubernetes的坑爬完实践了起来,那么从今天开始笔者会带来关于Docker容器化相关的博文,一同探索Docker为什么这么火热,我们怎么去实践使用它.
 

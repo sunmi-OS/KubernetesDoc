@@ -1,13 +1,7 @@
 # Kubernetes(六) - Secret和私有仓库认证
-#w-blog博客/kube
-
-![](Kubernetes(%E5%85%AD)%20-%20Secret%E5%92%8C%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E8%AE%A4%E8%AF%81/1B88873A-A973-4B22-A7BB-945B4E30394E.png)
 
 对一个公司来说安全也是最为重要的因为可能一旦出现安全问题可能这个公司就完了,所以对密码管理是一个长久不变的话题,Kubernetes对密码管理提供了Secret组件进行管理,最终映射成环境变量,文件等方式提供使用,统一进行了管理更换方便,并且开发人员并不需要关心密码降低了密码的受众范围从而保障了安全.
 
-附上:
-
-喵了个咪的博客:[w-blog.cn](w-blog.cn)
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
 
@@ -73,7 +67,7 @@ spec:
 > kubectl create -f secret-env.yaml
 ```
 
-![](Kubernetes(%E5%85%AD)%20-%20Secret%E5%92%8C%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E8%AE%A4%E8%AF%81/603DFD84-51E4-4A5E-8DB9-7899D8C47C4D.png)
+![](Kubernetes(%E5%85%AD)%20-%20Secret%E5%92%8C%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E8%AE%A4%E8%AF%81/51.png)
 
 
 ## 3.文件(TLS证书)
@@ -101,7 +95,7 @@ spec:
 > kubectl create -f secret-file.yaml
 ```
 
-![](Kubernetes(%E5%85%AD)%20-%20Secret%E5%92%8C%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E8%AE%A4%E8%AF%81/827F06D0-3613-4EBD-8C4A-85038985E610.png)
+![](Kubernetes(%E5%85%AD)%20-%20Secret%E5%92%8C%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E8%AE%A4%E8%AF%81/52.png)
 
 
 如果有需要对同的配置分开挂载到不同的地方可以使用如下配置

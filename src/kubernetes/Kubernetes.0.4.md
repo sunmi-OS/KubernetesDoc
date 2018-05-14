@@ -1,13 +1,10 @@
 # Kubernetes(四) - Pod和Deployment
-#w-blog博客/kube
 
 ![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/1B88873A-A973-4B22-A7BB-945B4E30394E.png)
 
 Kubernetes中有各种各样的组件,对于容器来说Kubernetes最小的单元是由Pod进行组成的,但是我们在使用过程中经常会使用到Deployment来部署我们的应用,其中究竟区别在哪里,我们今天就来一同探索
 
-附上:
 
-喵了个咪的博客:[w-blog.cn](w-blog.cn)
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
 
@@ -45,9 +42,9 @@ myapp-pod   1/1       Running   0          8s
 ```
 
 可以在web页面中查看到具体的pod(UI上称为容器组)
-![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/524A058D-9C8B-4643-A8E8-5B00AF577011.png)
+![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/44.png)
 查看日志可以看到
-![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/674DC856-FB8B-4080-9BE8-3C0A35788A1C.png)
+![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/45.png)
 删除Pod
 ```
 > kubectl delete -f myapp-pod.yaml
@@ -82,15 +79,15 @@ nginx-mysql-pod   2/2       Running   0          1m
 
 在ui中就可以看到一个Pod下运行着两个容器
 
-![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/5470F8B3-D9B0-4344-BB76-9B847FFA77F9.png)
+![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/46.png)
 
 通过运行命令可以进入到那个容器的终端,这里选择mysql容器
 
-![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/799F18C7-B95B-48F4-8641-A54572C554DD.png)
+![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/47.png)
 
 这里系统没有curl这里安装好了curl访问本地80端口,能访问到nginx容器的内容(这里证明了在一个Pod下的网络是共享的)
 
-![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/F074AA73-9C77-4357-8129-FB72BC0E26EA.png)
+![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/48.png)
 
 ## 2.Deployment部署
 
@@ -134,7 +131,7 @@ nginx-deployment   1         1         1            1           2m
 
 因为使用deployment会部署很多个Pod所以Pod的名字后面会带一串随机数避免重复
 
-![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/DD8C0497-051E-4610-8F79-2F4757778875.png)
+![](Kubernetes(%E5%9B%9B)%20-%20Pod%E5%92%8CDeployment/49.png)
 
 扩容
 ```

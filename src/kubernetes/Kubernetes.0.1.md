@@ -1,13 +1,10 @@
 # Kubernetes(一) - Docker管理工具
-#w-blog博客/kube
 
-![](Kubernetes(%E4%B8%80)%20-%20Docker%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/1B88873A-A973-4B22-A7BB-945B4E30394E.png)
+
+![]((../images/9.png)
 
 虽然Docker已经很强大了,但是在实际使用上还是有诸多不便,比如集群管理,资源调度文件管理等等,那么在这样一个百花齐放的容器时代涌现出了很多解决方案,比如Swarm,Mesos,Kubernetes等等,其中谷歌开源的Kubernetes是作为老大哥的存在,从本节开始将介绍如何打造自己的Kubernetes,并且了解它各个组件的用途
 
-附上:
-
-喵了个咪的博客:[w-blog.cn](w-blog.cn)
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
 

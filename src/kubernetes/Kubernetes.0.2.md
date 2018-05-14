@@ -1,14 +1,10 @@
 # Kubernetes(二) - 使用Rancher部署K8S集群(搭建Rancher)
-#w-blog博客/kube
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/BAC4385C-C6B3-46A2-A7B9-761994628C04.png)
+![](Kubernetes(12.png)
 
 众所周知Kubernetres虽然很好但是安装部署很复杂,
 Rancher功能很强大,我们这里仅仅使用Rancher来搭建管理Kubernetes集群
 
-附上:
-
-喵了个咪的博客:[w-blog.cn](w-blog.cn)
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
 Rancher官方地址: [https://www.cnrancher.com/](https://www.cnrancher.com/)  
@@ -49,10 +45,10 @@ docker pull rancher/server:v1.6.14
 
 等待容器启动访问对应IP的8080端口的地址可以看到如下界面
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/E491F3D4-49C4-4B1E-A5EA-3DA7966F4105.png)
+![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/13.png)
 
 通过右下角可以编辑语言切换成简体中文
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/CB478ECF-E0E5-4C2B-B594-3A3D0EEDA979.png)
+![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/14.png)
 
 
 ## 2 外挂数据库目录(按需)
@@ -87,19 +83,19 @@ docker run -d --restart=unless-stopped -p 8080:8080 rancher/server \
 
 机制的小伙伴都注意到了现在登录到Rancher不需要任何用户名密码,Rancher的用户体系需要自己开启
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/A056E520-8641-409B-8607-63A42AA54F89.png)
+![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/15.png)
 
 可以选择很多汇总认证的方式
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/0DDBAC8A-B0AB-4D37-AA45-5BF83F611249.png)
+![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/16.png)
 
 最方便的方式就是开启本地账号认证
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/1E1EB8D8-D965-4767-B6A6-3C01653F363F.png)
+![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/17.png)
 
 填写好相关用户名密码之后开启本地验证下次登录就需要验证用户了,并且在后续的管理中也能进行权限控制
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/59622E11-7B06-41BD-8ED5-E910977A9DD6.png)
+![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/18.png)
 
 
 ## 4 Rancher多节点HA部署
