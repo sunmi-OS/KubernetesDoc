@@ -4,6 +4,7 @@
 Kubernetes解决的另外一个痛点就是服务发现,服务发现机制和容器开放访问都是通过Service来实现的,把Deployment和Service关联起来只需要Label标签相同就可以关联起来形成负载均衡,基于kuberneres的DNS服务我们只需要访问Service的名字就能以负载的方式访问到各个容器
 
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
+
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
 
 > PS:本系列中使用 KubernetesV1.8 RancherV1.6.14  
