@@ -1,5 +1,4 @@
 # Dockerfile构建镜像
-#w-blog博客/kube
 
 ![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/1.png)
 
