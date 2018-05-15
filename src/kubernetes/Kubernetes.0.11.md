@@ -1,5 +1,4 @@
 # Kubernetes(十一) - Rancher灾难恢复
-#w-blog博客/kube
 
 ![](Kubernetes(%E5%8D%81%E4%B8%80)%20-%20Rancher%E7%81%BE%E9%9A%BE%E6%81%A2%E5%A4%8D/BAC4385C-C6B3-46A2-A7B9-761994628C04.png)
 
