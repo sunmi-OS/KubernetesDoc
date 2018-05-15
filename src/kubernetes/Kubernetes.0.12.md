@@ -1,13 +1,9 @@
 # Kubernetes - 补充一
-#w-blog博客/kube
 
 ![](Kubernetes%20-%20%E8%A1%A5%E5%85%85%E4%B8%80/1B88873A-A973-4B22-A7BB-945B4E30394E.png)
 
 
 
-附上:
-
-喵了个咪的博客:[w-blog.cn](w-blog.cn)
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
 

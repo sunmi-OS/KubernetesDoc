@@ -4,9 +4,6 @@
 
 
 
-附上:
-
-喵了个咪的博客:[w-blog.cn](w-blog.cn)
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
 Kubernetes官方Git地址:[https://github.com/kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
 Rancher官方地址: [https://www.cnrancher.com/](https://www.cnrancher.com/)  
