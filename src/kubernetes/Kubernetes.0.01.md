@@ -1,7 +1,7 @@
 # Kubernetes(一) - Docker管理工具
 
 
-![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/1.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/7.png)
 
 虽然Docker已经很强大了,但是在实际使用上还是有诸多不便,比如集群管理,资源调度文件管理等等,那么在这样一个百花齐放的容器时代涌现出了很多解决方案,比如Swarm,Mesos,Kubernetes等等,其中谷歌开源的Kubernetes是作为老大哥的存在,从本节开始将介绍如何打造自己的Kubernetes,并且了解它各个组件的用途
 
@@ -55,7 +55,7 @@ Docker让容器变成了主流。自从项目发布以来，Docker着重于提�
 
 下图是Kube内部组件协助运行图:
 
-![](Kubernetes(%E4%B8%80)%20-%20Docker%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/669282A1-83CB-458B-94AB-32D3F668273B.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/8.png)
 
 
 ## 3.Kubernetes组件和核心技术概念
@@ -110,5 +110,7 @@ Kubernetes设计理念和功能其实就是一个类似Linux的分层架构：
   * Kubernetes内部：CRI、CNI、CVI、镜像仓库、Cloud Provider、集群自身的配置和管理等
 
 
-![](Kubernetes(%E4%B8%80)%20-%20Docker%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/D5944419-DEA3-4967-ACCE-EFC834A2D441.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/9.png)
+
+
 

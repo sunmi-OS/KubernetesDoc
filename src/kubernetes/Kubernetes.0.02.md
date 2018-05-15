@@ -1,6 +1,6 @@
 # Kubernetes(二) - 使用Rancher部署K8S集群(搭建Rancher)
 
-![](Kubernetes(12.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/10.png)
 
 众所周知Kubernetres虽然很好但是安装部署很复杂,
 Rancher功能很强大,我们这里仅仅使用Rancher来搭建管理Kubernetes集群
@@ -45,10 +45,10 @@ docker pull rancher/server:v1.6.14
 
 等待容器启动访问对应IP的8080端口的地址可以看到如下界面
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/13.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/11.png)
 
 通过右下角可以编辑语言切换成简体中文
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/14.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/12.png)
 
 
 ## 2 外挂数据库目录(按需)
@@ -83,19 +83,19 @@ docker run -d --restart=unless-stopped -p 8080:8080 rancher/server \
 
 机制的小伙伴都注意到了现在登录到Rancher不需要任何用户名密码,Rancher的用户体系需要自己开启
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/15.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/13.png)
 
 可以选择很多汇总认证的方式
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/16.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/14.png)
 
 最方便的方式就是开启本地账号认证
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/17.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/15.png)
 
 填写好相关用户名密码之后开启本地验证下次登录就需要验证用户了,并且在后续的管理中也能进行权限控制
 
-![](Kubernetes(%E4%BA%8C)%20-%20%E4%BD%BF%E7%94%A8Rancher%E9%83%A8%E7%BD%B2K8S%E9%9B%86%E7%BE%A4(%E6%90%AD%E5%BB%BARancher)/18.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/16.png)
 
 
 ## 4 Rancher多节点HA部署

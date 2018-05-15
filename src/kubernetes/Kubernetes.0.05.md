@@ -49,7 +49,7 @@ spec:
 > kubectl create -f nginx-deployment.yaml
 ```
 
-![](Kubernetes(%E4%BA%94)%20-%20Service/50.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/48.png)
 
 我们分别修改一下对应的输出
 ```

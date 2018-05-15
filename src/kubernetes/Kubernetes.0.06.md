@@ -68,7 +68,7 @@ spec:
 > kubectl create -f secret-env.yaml
 ```
 
-![](Kubernetes(%E5%85%AD)%20-%20Secret%E5%92%8C%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E8%AE%A4%E8%AF%81/51.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/49.png)
 
 
 ## 3.文件(TLS证书)
@@ -96,7 +96,7 @@ spec:
 > kubectl create -f secret-file.yaml
 ```
 
-![](Kubernetes(%E5%85%AD)%20-%20Secret%E5%92%8C%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93%E8%AE%A4%E8%AF%81/52.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/50.png)
 
 
 如果有需要对同的配置分开挂载到不同的地方可以使用如下配置

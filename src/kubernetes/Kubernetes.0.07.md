@@ -49,10 +49,10 @@ persistentvolume "local-pv-1" created
 persistentvolumeclaim "mysql-pv-claim" created
 ```
 
-![](Kubernetes(%E4%B8%83)%20-%20Volume/53.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/51.png)
 
 
-![](Kubernetes(%E4%B8%83)%20-%20Volume/54.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/52.png)
 
 然后我们就可以对对进行进行挂载了
 
@@ -77,11 +77,11 @@ spec:
 pod "volume-local-pod" created
 ```
 
-![](Kubernetes(%E4%B8%83)%20-%20Volume/55.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/53.png)
 
 这个时候容器的节点在K8S-S1上我们看一下是否保存到了K8S-S1的磁盘上了吗
 
-![](Kubernetes(%E4%B8%83)%20-%20Volume/56.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/54.png)
 
 
 ## 2.NAS网络盘
@@ -152,11 +152,11 @@ deployment "volume-nfs" created
 
 两个Pod分别在不同的节点中
 
-![](Kubernetes(%E4%B8%83)%20-%20Volume/57.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/55.png)
 
-![](Kubernetes(%E4%B8%83)%20-%20Volume/58.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/56.png)
 
-![](Kubernetes(%E4%B8%83)%20-%20Volume/59.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/57.png)
 
 
 ## 3. 其他Volume支持类型
