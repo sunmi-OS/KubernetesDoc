@@ -1,5 +1,7 @@
 # Kubernetes(六) - Secret和私有仓库认证
 
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/7.png)
+
 对一个公司来说安全也是最为重要的因为可能一旦出现安全问题可能这个公司就完了,所以对密码管理是一个长久不变的话题,Kubernetes对密码管理提供了Secret组件进行管理,最终映射成环境变量,文件等方式提供使用,统一进行了管理更换方便,并且开发人员并不需要关心密码降低了密码的受众范围从而保障了安全.
 
 Kubernetes官方文档:[https://kubernetes.io/docs/reference/](https://kubernetes.io/docs/reference/)
