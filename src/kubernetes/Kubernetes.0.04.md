@@ -1,6 +1,6 @@
 # Kubernetes(四) - Pod和Deployment
 
-![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/10.png)
+![](https://github.com/sunmi-OS/KubernetesDoc/blob/master/src/images/7.png)
 
 Kubernetes中有各种各样的组件,对于容器来说Kubernetes最小的单元是由Pod进行组成的,但是我们在使用过程中经常会使用到Deployment来部署我们的应用,其中究竟区别在哪里,我们今天就来一同探索
 
